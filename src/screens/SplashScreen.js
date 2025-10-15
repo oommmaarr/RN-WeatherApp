@@ -15,7 +15,7 @@ export default function SplashScreen({ onFinish }) {
     <View style={styles.container}>
       <Video
         ref={video}
-        source={require('../assets/Animated_Cloud.mp4')}
+        source={require('../../assets/Animated_Cloud.mp4')}
         style={styles.video}
         resizeMode="cover"
         shouldPlay

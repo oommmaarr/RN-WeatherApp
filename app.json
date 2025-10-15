@@ -3,32 +3,60 @@
     "name": "Sky Pulse",
     "slug": "SkyPulse",
     "version": "1.0.0",
-    "web": {
-      "favicon": "./src/assets/Logo.png"
-    },
-    "experiments": {
-      "tsconfigPaths": true
-    },
     "orientation": "portrait",
     "icon": "./src/assets/Logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./src/assets/Logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
+    },
+    "web": {
+      "favicon": "./src/assets/Logo.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "splash": {
+        "image": "./src/assets/Logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/Logo.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000000"
       },
-      "package": "com.omarmadkour20.SkyPulse"
-    }
+      "package": "com.omarmadkour20.SkyPulse",
+      "splash": {
+        "image": "./src/assets/Logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000",
+        "mdpi": "./src/assets/Logo.png",
+        "hdpi": "./src/assets/Logo.png",
+        "xhdpi": "./src/assets/Logo.png",
+        "xxhdpi": "./src/assets/Logo.png",
+        "xxxhdpi": "./src/assets/Logo.png"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e207fa8a-5230-4aa6-9edc-969b0d0246ba"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e207fa8a-5230-4aa6-9edc-969b0d0246ba"
+      }
+    },
+    "owner": "omarmadkour20"
   }
 }
